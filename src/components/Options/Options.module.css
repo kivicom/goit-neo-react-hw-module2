@@ -1,0 +1,32 @@
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #003d80;
+}
+
+/* Скидання кнопки */
+button.reset {
+  background-color: #dc3545;
+}
+
+button.reset:hover {
+  background-color: #b02a37;
+}
+
+button.reset:active {
+  background-color: #891f29;
+}
